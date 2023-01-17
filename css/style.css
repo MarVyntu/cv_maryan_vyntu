@@ -1,0 +1,482 @@
+/*-*/
+:root {
+  --aside-background-color-reserv: rgb(30, 42, 58);
+  --aside-background-color: rgb(2, 23, 59);
+  --orange-text-color: rgb(248, 109, 45);
+  --gray-text-color: rgb(89, 89, 89);
+  --lignt-gray-text-color: rgb(168, 168, 168);
+  --cotacts-text-color: rgb(140, 147, 155);
+  --background-color: rgb(229, 229, 229);
+  font-family: Swis721 Lt BT;
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Swis721 Lt BT";
+  src: url("../fonts_cv/Sw721Lt.ttf") format("TTF"),
+    url("../fonts_cv/Sw721Lt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Swis721 LtEx BT";
+  src: url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF"),
+    url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../fonts_cv/futura-book-bt.ttf") format("TTF"),
+    url("../fonts_cv/futura-book-bt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================================== */
+
+body {
+  font-family: Swis721 Lt BT;
+  background-color: var(--background-color);
+}
+
+.main {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: -5.25em auto;
+  box-shadow: 0.3em 0.3em 1.25em rgba(0, 0, 0, 0.1);
+}
+
+.all_right_text {
+  margin: 6.25em 5.6em 6.25em 5.6em;
+}
+
+.radiocolor {
+  color: var(--orange-text-color);
+}
+
+.about_me {
+  margin: 0 0 2.5em 0;
+}
+
+.about_me h2 {
+  font-family: "Swis721 LtEx BT";
+  font-weight: 200;
+  color: var(--orange-text-color);
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+.my_name {
+  font-family: "Futura Bk BT";
+  font-weight: 200;
+  /* font-style: normal; */
+  font-size: 2.8em;
+  line-height: 3.4em;
+  color: #000;
+}
+
+.my_description {
+  width: 400;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.projects_experience_education,
+.languages_title,
+.projects_experience_education,
+.courses__title-h3 {
+  font-family: "Swis721 LtEx BT";
+  color: var(--orange-text-color);
+  font-weight: 200;
+  font-size: 1.38em;
+  font-style: normal;
+  font-weight: 44em;
+  line-height: 1.7em;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 0.7em 0;
+  margin-bottom: 1rem;
+}
+
+.com3_2_1name,
+.self-employed h4,
+.academy-of-arts {
+  font-family: "Swis721 LtEx BT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 0 0 0.62em 0;
+  color: var(--gray-text-color);
+}
+
+.projects_title {
+  font-family: "Swis721 LtEx BT";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-weight: 200;
+  font-size: 1.2em;
+  line-height: 1.25em;
+  margin: 0 0 0.62em 0;
+  color: var(--orange-text-color);
+}
+
+.self-employed {
+  margin-bottom: 1rem;
+}
+
+.self-employed p {
+  color: var(--cotacts-text-color);
+  margin-bottom: 1rem;
+}
+
+.experience_manager,
+.experience_education {
+  margin-bottom: 1.5rem;
+}
+
+.my_projekts_section {
+  margin: 0 0 1.5rem 0;
+}
+
+.masters {
+  font-family: "Swis721 LtEx BT";
+  font-style: normal;
+  color: var(--cotacts-text-color);
+}
+
+.academy-of-arts {
+  color: var(--gray-text-color);
+}
+
+.marg_bottom05 {
+  margin-bottom: 0.5rem;
+}
+
+.my_projekts_list {
+  padding: 0 0 0 1em;
+}
+.my_projekts_list_black {
+  color: #000;
+}
+.my_projekts_list_gray {
+  font-size: 0.87em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--gray-text-color);
+}
+
+.academy-of-arts {
+  color: var(--gray-text-color);
+}
+
+.master {
+  color: var(--cotacts-text-color);
+  font-size: 0.87em;
+  padding-top: 0.5rem;
+}
+
+.brackets_black {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.87em;
+  line-height: 1.5em;
+  color: #000;
+}
+.gray_text {
+  color: var(--cotacts-text-color);
+}
+
+.my_experience,
+.my_education {
+  margin: 0 0 1em 0;
+}
+
+.experience_manager {
+  padding: 0 0 0 1em;
+}
+
+.manager_com3_2_1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.87em;
+  line-height: 1.5em;
+  color: var(--gray-text-color);
+}
+
+.courses__title {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.courses_description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course__jedi p,
+.course__fundamentals p {
+  color: var(--gray-text-color);
+  margin-bottom: 1em;
+}
+
+.course__jedi a,
+.course__fundamentals a {
+  color: var(--gray-text-color);
+  margin-bottom: 0.2em;
+}
+
+.course__jedi a:hover,
+.course__fundamentals a:hover {
+  color: var(--orange-text-color);
+}
+
+.certificate {
+  width: 100%;
+}
+
+.certificate img {
+  box-shadow: 0.3em 0.3em 1.25em rgba(0, 0, 0, 0.5);
+  height: 11em;
+}
+
+/*-----sidebar----- */
+
+.sidebar {
+  background-color: var(--aside-background-color);
+  width: 23.1em;
+  padding: 2.5em 0;
+}
+
+.sidebar__main-img {
+  width: 18em;
+  margin-top: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.sidebar__main-img img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 0.75em rgba(255, 255, 255, 1);
+}
+
+.contacts,
+.teh_skills,
+.soft_skills {
+  font-family: "Swis721 LtEx BT";
+  font-style: normal;
+  font-weight: 200;
+  margin: 3.1em 0 0 2.5em;
+}
+
+.sidebar_title {
+  font-size: 1.38em;
+  font-style: normal;
+  font-weight: 43.8em;
+  line-height: 1.7em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 0.6em;
+}
+
+/* contact links */
+
+.contact_phone,
+.contakt_mail,
+.links1,
+.contact_phone_mail {
+  font-size: 0.87em;
+  font-style: normal;
+  font-weight: 43.7em;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--cotacts-text-color);
+}
+
+.contact_phone:hover,
+.contakt_mail:hover,
+.links1:hover,
+.contact_phone_mail:hover {
+  color: #fff;
+}
+
+.icon_phone {
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/cell08.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+.icon_phone:hover {
+  background-position: left top -12px;
+  cursor: pointer;
+}
+
+.icon_mail {
+  width: 12px;
+  height: 10px;
+  background-image: url(../img/mail08.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+.icon_mail:hover {
+  background-position: left top -10px;
+  cursor: pointer;
+}
+
+.icon_github {
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/github08.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+.icon_github:hover {
+  background-position: left top -12px;
+  cursor: pointer;
+}
+
+.icon_telegram {
+  width: 12px;
+  height: 10px;
+  background-image: url(../img/tel08.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+
+.icon_telegram:hover {
+  background-position: left top -10px;
+  cursor: pointer;
+}
+
+.icon_linkedin {
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/in08.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+
+.icon_linkedin:hover {
+  background-position: left top -12px;
+  cursor: pointer;
+}
+
+.teh_skills_least,
+.soft_skills_least {
+  font-size: 0.87em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.teh_skills_precolor,
+.soft_skills_precolor {
+  color: var(--orange-text-color);
+}
+
+.teh_skills_text,
+.soft_skills_text {
+  color: #fff;
+}
+
+.period_of_work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 0.9em;
+  margin: 0 0 0.62em 0;
+  color: rgb(168, 168, 168);
+}
+
+.teh_skills,
+.soft_skills {
+  margin-left: 3.5em;
+}
+
+.brackets_vertical_black {
+  color: #000;
+}
+
+/* ------------------  */
+
+@media screen and (max-width: 930px) {
+  .main {
+    width: 98%;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 1.5em;
+  }
+
+  .all_right_text {
+    margin: auto;
+  }
+
+  .about_me,
+  .my_experience,
+  .experience_manager,
+  .my_education {
+    margin: 15px;
+  }
+
+  .my_name {
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+
+  .sidebar_title,
+  .contacts,
+  .teh_skills,
+  .soft_skills {
+    padding: 5px;
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+  }
+  .contacts {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .teh_skills {
+    margin-bottom: 20px;
+  }
+
+  .teh_skills_least,
+  .soft_skills_least {
+    padding-left: 15px;
+  }
+}
