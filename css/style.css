@@ -46,8 +46,6 @@
   font-display: swap;
 }
 
-/* ============================================================== */
-
 body {
   font-family: Swis721 Lt BT;
   background-color: var(--background-color);
@@ -57,7 +55,7 @@ body {
   width: 90%;
   display: flex;
   flex-direction: row-reverse;
-  margin: -5.25em auto;
+  margin: 2em auto;
   box-shadow: 0.3em 0.3em 1.25em rgba(0, 0, 0, 0.1);
 }
 
@@ -189,6 +187,10 @@ body {
   color: var(--gray-text-color);
 }
 
+.my_projekts_list_gray:hover {
+  color: var(--orange-text-color);
+}
+
 .academy-of-arts {
   color: var(--gray-text-color);
 }
@@ -264,7 +266,7 @@ body {
 }
 
 /*-----sidebar----- */
-
+/* ===================================================================== */
 .sidebar {
   background-color: var(--aside-background-color);
   width: 23.1em;
@@ -273,7 +275,6 @@ body {
 
 .sidebar__main-img {
   width: 18em;
-  margin-top: 4em;
   margin-left: 2em;
   margin-right: 2em;
 }
